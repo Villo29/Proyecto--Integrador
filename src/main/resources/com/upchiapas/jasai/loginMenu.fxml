@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.jasai.controllers.LoginMenuController">
+   <children>
+      <ImageView fitHeight="688.0" fitWidth="410.0" layoutX="-6.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/Captura%20de%20pantalla%202022-07-01%20082937.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="213.0" fitWidth="219.0" layoutX="71.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LOGO%20JASAI.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="42.0" layoutY="251.0" text="TU UBICACION ES ENTRETENIMIENTO">
+         <font>
+            <Font name="Constantia Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btninicio" layoutX="120.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#btninicioOnMouseClicked" style="-fx-background-color: #F9F9F9;" text="Iniciar Sesion">
+         <font>
+            <Font name="MS Reference Sans Serif" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnregistra" layoutX="119.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#btnregistraOnMouseClicked" prefHeight="35.0" prefWidth="147.0" style="-fx-background-color: #F9F9F9;" text="Registrase">
+         <font>
+            <Font name="MS Reference Sans Serif" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btncomercio" layoutX="98.0" layoutY="440.0" mnemonicParsing="false" onMouseClicked="#btncomercioOnMouseClicked" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #F9F9F9;" text="Registrar Comercio">
+         <font>
+            <Font name="MS Reference Sans Serif" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
