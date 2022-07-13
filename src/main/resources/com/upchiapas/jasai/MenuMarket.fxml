@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.jasai.controllers.MenuMarket">
+   <children>
+      <ImageView fitHeight="680.0" fitWidth="382.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/Captura%20de%20pantalla%202022-07-01%20082937.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="23.0" layoutY="73.0" prefHeight="169.0" prefWidth="337.0" style="-fx-background-color: #F5F5F5;">
+         <children>
+            <ImageView fitHeight="129.0" fitWidth="131.0" layoutX="14.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/SUPERMECADOS/Chedraui-logo-5C8594E079-seeklogo.com.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="135.0" layoutY="33.0" text="SUEROX ( 630 ML )">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="71.0" fitWidth="79.0" layoutX="169.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/SUPERMECADOS/SUEROX.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="244.0" layoutY="91.0" prefHeight="32.0" prefWidth="85.0" text="3 X $58" textFill="#ff9000">
+               <font>
+                  <Font name="Elephant Italic" size="23.0" />
+               </font>
+            </Label>
+            <Button layoutX="126.0" layoutY="137.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="85.0" text="Mas Info." />
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnatras" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnatras" style="-fx-background-color: #F5F5F5;" text="Atras">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="23.0" layoutY="277.0" prefHeight="169.0" prefWidth="337.0" style="-fx-background-color: #F5F5F5;">
+         <children>
+            <Label layoutX="74.0" prefHeight="71.0" prefWidth="262.0" text="Toda las Salsas para Pasta">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="59.0" fitWidth="131.0" layoutX="135.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/SUPERMECADOS/2.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="252.0" layoutY="72.0" prefHeight="32.0" prefWidth="85.0" text="3 X 2" textFill="#ff9000">
+               <font>
+                  <Font name="Elephant Italic" size="23.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="107.0" fitWidth="171.0" layoutX="14.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/SUPERMECADOS/LACOMER.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="126.0" layoutY="144.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="85.0" text="Mas Info." />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="23.0" layoutY="465.0" prefHeight="169.0" prefWidth="337.0" style="-fx-background-color: #F5F5F5;">
+         <children>
+            <ImageView fitHeight="129.0" fitWidth="131.0" layoutX="14.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/SUPERMECADOS/Walmart-logo-5.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="153.0" layoutY="33.0" text="Cereal Corn Flakes">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="182.0" layoutY="77.0" prefHeight="32.0" prefWidth="85.0" text="\$35">
+               <font>
+                  <Font name="Arial Bold" size="23.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="97.0" fitWidth="163.0" layoutX="14.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/SUPERMECADOS/Sin%20título.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="137.0" layoutY="118.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="85.0" text="Mas Info." />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

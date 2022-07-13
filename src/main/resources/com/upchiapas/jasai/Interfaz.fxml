@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.jasai.controllers.Interfaz">
+   <children>
+      <ImageView fitHeight="683.0" fitWidth="387.0" layoutX="-8.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/Captura%20de%20pantalla%202022-07-01%20082937.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="58.0" layoutY="222.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="87.0" style="-fx-background-color: 000;" />
+      <ImageView fitHeight="79.0" fitWidth="96.0" layoutX="20.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LogMain/SUPERMECADO.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="87.0" layoutX="150.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LogMain/ROPA.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="87.0" layoutX="260.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LogMain/RESTAURANTES.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="93.0" layoutX="20.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LogMain/BAR.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="107.0" layoutX="133.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LogMain/HOSPITAL.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="97.0" layoutX="260.0" layoutY="298.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LogMain/GYM.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="114.0" fitWidth="106.0" layoutX="20.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LogMain/FARMACIAS.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="107.0" layoutX="144.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LogMain/ENTRETENIMIENTO.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="97.0" layoutX="266.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/LogMain/BELLEZA.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnMarket" layoutX="17.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#btnMarketOnMouseClicked" prefHeight="30.0" style="-fx-background-color: #f5f5f5;" text="SuperMercado" />
+      <Button fx:id="btnRopa" layoutX="155.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#btnRopaOnMouseClicked" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #f5f5f5;" text="Ropa">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRestaurant" layoutX="262.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#btnRestaurantOnMouseClicked" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #f5f5f5;" text="Restaurantes">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBar" layoutX="30.0" layoutY="399.0" mnemonicParsing="false" onMouseClicked="#btnBarOnMouseClicked" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #f5f5f5;" text="Bares">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnHospital" layoutX="152.0" layoutY="399.0" mnemonicParsing="false" onMouseClicked="#btnHospitalOnMouseClicked" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #f5f5f5;" text="Hospital">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btngym" layoutX="272.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#btngymOnMouseClicked" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #f5f5f5;" text="GYM">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnFarmacia" layoutX="20.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#btnFarmaciaOnMouseClicked" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #f5f5f5;" text="Farmacias">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEntre" layoutX="147.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#btnEntreOnMouseClicked" prefHeight="30.0" prefWidth="106.0" style="-fx-background-color: #f5f5f5;" text="Entretenimiento">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBelleza" layoutX="283.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#btnBellezaOnMouseClicked" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #f5f5f5;" text="Belleza">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

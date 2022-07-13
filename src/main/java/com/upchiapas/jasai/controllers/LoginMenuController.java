@@ -1,7 +1,9 @@
 package com.upchiapas.jasai.controllers;
 
+import com.upchiapas.jasai.HelloApplication;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
@@ -22,23 +24,19 @@ public class LoginMenuController {
 
     @FXML
     void btncomercioOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("registerCompany", "Registrar Compañia");
     }
 
     @FXML
     void btninicioOnMouseClicked(MouseEvent event) throws IOException {
 
-       // Login login= new Login();
-       // FXMLLoader loader= new FXMLLoader();
-        //AnchorPane root=(AnchorPane) loader.load(Objects.requireNonNull(getClass().getResource("login.fxml")).openStream());
-
-       // Login login LoginInstacia=(Login)loader.getController();
+        HelloApplication.setFXML("login", "Menu Inicio");
 
     }
 
     @FXML
     void btnregistraOnMouseClicked(MouseEvent event) {
-            System.exit(1);
+        HelloApplication.setFXML("register", "Registrar Usuario");
     }
 
 }

@@ -32,7 +32,7 @@
             <Font name="Perpetua" size="25.0" />
          </font>
       </Label>
-      <Button fx:id="btnInicio" layoutX="51.0" layoutY="475.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #F9F9F9;" text="Iniciar Sesion">
+      <Button fx:id="btnInicio" layoutX="51.0" layoutY="475.0" mnemonicParsing="false" onMouseClicked="#btninicioOnMouseClick" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #F9F9F9;" text="Iniciar Sesion">
          <font>
             <Font name="Wingdings" size="16.0" />
          </font>
