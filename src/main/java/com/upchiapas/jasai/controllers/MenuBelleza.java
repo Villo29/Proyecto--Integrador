@@ -1,2 +1,4 @@
-package com.upchiapas.jasai.controllers;public class MenuBelleza {
+package com.upchiapas.jasai.controllers;
+
+public class MenuBelleza {
 }

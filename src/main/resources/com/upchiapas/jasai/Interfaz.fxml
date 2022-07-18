@@ -10,7 +10,7 @@
    <children>
       <ImageView fitHeight="683.0" fitWidth="387.0" layoutX="-8.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asset/img/Captura%20de%20pantalla%202022-07-01%20082937.png" />
+            <Image url="@asset/img/background.png" />
          </image>
       </ImageView>
       <Button layoutX="58.0" layoutY="222.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="87.0" style="-fx-background-color: 000;" />

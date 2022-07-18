@@ -13,12 +13,12 @@
    <children>
       <ImageView fitHeight="679.0" fitWidth="385.0" layoutX="-5.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asset/img/Captura%20de%20pantalla%202022-07-01%20082937.png" />
+            <Image url="@asset/img/background.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="88.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asset/img/LOGO%20JASAI.png" />
+            <Image url="@asset/img/logo.png" />
          </image>
       </ImageView>
       <Label layoutX="122.0" layoutY="291.0" text="Nombre de Usuario">

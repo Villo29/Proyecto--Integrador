@@ -5,7 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 
-public class Menu1 {
+public class MenuSuper1 {
 
     @FXML
     private Button btnatras;

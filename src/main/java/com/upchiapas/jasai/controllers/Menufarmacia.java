@@ -1,4 +1,4 @@
-package com.upchiapas.jasai;
+package com.upchiapas.jasai.controllers;
 
-public class MenuFarmacia {
+public class Menufarmacia {
 }

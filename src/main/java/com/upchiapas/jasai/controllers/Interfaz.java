@@ -41,17 +41,17 @@ public class Interfaz {
 
     @FXML
     void btnBellezaOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuBelleza","Para Ponerte Bella");
     }
 
     @FXML
     void btnEntreOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuEntretenimiento","Divierte Mucho");
     }
 
     @FXML
     void btnFarmaciaOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("Menufarmacia","Todas Las Farmacias ALREDEDOR");
     }
 
     @FXML
@@ -76,7 +76,7 @@ public class Interfaz {
 
     @FXML
     void btngymOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuGym","Ponte Mamado");
     }
 
 }

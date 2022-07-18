@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="676.0" fitWidth="383.0" layoutX="-6.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asset/img/Captura%20de%20pantalla%202022-07-01%20082937.png" />
+            <Image url="@asset/img/background.png" />
          </image>
       </ImageView>
       <AnchorPane layoutX="15.0" layoutY="100.0" prefHeight="169.0" prefWidth="345.0" style="-fx-background-color: #F5F5F5;">

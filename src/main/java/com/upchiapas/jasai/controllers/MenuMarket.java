@@ -11,7 +11,24 @@ public class MenuMarket {
     private Button btnatras;
 
     @FXML
+    private Button btninfo1;
+    @FXML
+    private Button btninfo2;
+
+    @FXML
     void btnatras(MouseEvent event) {
-        HelloApplication.setFXML("Interfaz","Tu Plaza Virtual");
+        HelloApplication.setFXML("Interfaz","TU PLAZA VIRTUAL");
     }
+
+    @FXML
+    void btninfo1OnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("MenuSuper1","Promoxiones Chedrahui");
+    }
+
+    @FXML
+    void btninfo2OnMouseClicked(MouseEvent event){
+        HelloApplication.setFXML("MenuSuper2", "Promoxiones La Comer");
+    }
+
+
 }

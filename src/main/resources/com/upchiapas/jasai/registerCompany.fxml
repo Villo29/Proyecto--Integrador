@@ -13,12 +13,12 @@
    <children>
       <ImageView fitHeight="675.0" fitWidth="387.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asset/img/Captura%20de%20pantalla%202022-07-01%20082937.png" />
+            <Image url="@asset/img/background.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="107.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@asset/img/LOGO%20JASAI.png" />
+            <Image url="@asset/img/logo.png" />
          </image>
       </ImageView>
       <Label layoutX="111.0" layoutY="243.0" text="Registra tu negocio">

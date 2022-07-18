@@ -11,12 +11,12 @@
    <children>
       <ImageView fitHeight="688.0" fitWidth="410.0" layoutX="-6.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asset/img/background.png" />
+            <Image url="@asset/img/background.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="213.0" fitWidth="219.0" layoutX="71.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asset/img/logo.png" />
+            <Image url="@asset/img/logo.png" />
          </image>
       </ImageView>
       <Label layoutX="42.0" layoutY="251.0" text="TU UBICACION ES ENTRETENIMIENTO">
