@@ -44,12 +44,12 @@
             <Font name="Myanmar Text" size="16.0" />
          </font>
       </Label>
-      <Button fx:id="btnContinue" layoutX="150.0" layoutY="564.0" mnemonicParsing="false" onMouseClicked="#btncontinuarOnMouseClick" style="-fx-background-color: #F9F9F9;" text="Continuar">
+      <Button fx:id="btnContinue" layoutX="150.0" layoutY="564.0" mnemonicParsing="false" onMouseClicked="#btncontinuarOnMouseClick" style="-fx-background-color: #F9F9F9; -fx-background-radius: 25;" text="Continuar">
          <font>
             <Font name="Tahoma" size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnback" layoutX="21.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClick" style="-fx-background-color: #F5F5F5;" text="Atras">
+      <Button fx:id="btnback" layoutX="21.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnbackOnMouseClick" style="-fx-background-color: #F5F5F5; -fx-background-radius: 25;" text="Atras">
          <font>
             <Font name="Arial" size="13.0" />
          </font>

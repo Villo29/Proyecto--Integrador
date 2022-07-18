@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.jasai.controllers.MenuRestau">
    <children>
       <ImageView fitHeight="676.0" fitWidth="383.0" layoutX="-6.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
@@ -37,7 +36,7 @@
                   <Image url="@asset/img/RESTAURANTES/LOGO%20SIBARITA.png" />
                </image>
             </ImageView>
-            <Button fx:id="btninfo1" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" text="Mas Info." />
+            <Button fx:id="btninfo1" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="19.0" layoutY="291.0" prefHeight="169.0" prefWidth="345.0" style="-fx-background-color: #F5F5F5;">
@@ -57,7 +56,7 @@
                   <Image url="@asset/img/RESTAURANTES/LOGO%20UAY%20BALAM.png" />
                </image>
             </ImageView>
-            <Button fx:id="btninfo11" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" text="Mas Info." />
+            <Button fx:id="btninfo11" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
             <Label layoutX="50.0" layoutY="47.0" prefHeight="32.0" prefWidth="163.0" text="RESTAURANTE">
                <font>
                   <Font name="Arial Bold" size="20.0" />
@@ -82,7 +81,7 @@
                   <Image url="@asset/img/RESTAURANTES/PROMOCIONES%20LA%20ESQUINA.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="btninfo12" layoutX="13.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" text="Mas Info." />
+            <Button fx:id="btninfo12" layoutX="13.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
             <Label layoutX="118.0" layoutY="28.0" prefHeight="55.0" prefWidth="227.0" text="QUINTA RESTAURANT">
                <font>
                   <Font name="Arial Bold" size="20.0" />
@@ -90,7 +89,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <Button fx:id="btnatras" layoutX="19.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: #f5f5f5;" text="Atras">
+      <Button fx:id="btnatras" layoutX="19.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="32.0" prefWidth="59.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Atras">
          <font>
             <Font name="Arial" size="12.0" />
          </font>

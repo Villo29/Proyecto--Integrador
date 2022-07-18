@@ -24,17 +24,17 @@
             <Font name="Constantia Bold Italic" size="16.0" />
          </font>
       </Label>
-      <Button fx:id="btninicio" layoutX="120.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#btninicioOnMouseClicked" style="-fx-background-color: #F9F9F9;" text="Iniciar Sesion">
+      <Button fx:id="btninicio" layoutX="120.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#btninicioOnMouseClicked" style="-fx-background-color: #F9F9F9; -fx-background-radius: 25;" text="Iniciar Sesion">
          <font>
             <Font name="MS Reference Sans Serif" size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnregistra" layoutX="119.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#btnregistraOnMouseClicked" prefHeight="35.0" prefWidth="147.0" style="-fx-background-color: #F9F9F9;" text="Registrase">
+      <Button fx:id="btnregistra" layoutX="119.0" layoutY="393.0" mnemonicParsing="false" onMouseClicked="#btnregistraOnMouseClicked" prefHeight="35.0" prefWidth="147.0" style="-fx-background-color: #F9F9F9; -fx-background-radius: 25;" text="Registrase">
          <font>
             <Font name="MS Reference Sans Serif" size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btncomercio" layoutX="98.0" layoutY="440.0" mnemonicParsing="false" onMouseClicked="#btncomercioOnMouseClicked" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #F9F9F9;" text="Registrar Comercio">
+      <Button fx:id="btncomercio" layoutX="98.0" layoutY="440.0" mnemonicParsing="false" onMouseClicked="#btncomercioOnMouseClicked" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #F9F9F9; -fx-background-radius: 25;" text="Registrar Comercio">
          <font>
             <Font name="MS Reference Sans Serif" size="18.0" />
          </font>
