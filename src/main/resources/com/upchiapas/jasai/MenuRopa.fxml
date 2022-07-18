@@ -36,7 +36,7 @@
                   <Image url="@asset/img/ROPA/LEVIS%20LOGO.png" />
                </image>
             </ImageView>
-            <Button fx:id="btninfo1" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" text="Mas Info." />
+            <Button fx:id="btninfo1" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="19.0" layoutY="294.0" prefHeight="169.0" prefWidth="337.0" style="-fx-background-color: #F5F5F5;">
@@ -61,7 +61,7 @@
                   <Image url="@asset/img/ROPA/CALVIN%20KLEIN%20LOGO.png" />
                </image>
             </ImageView>
-            <Button fx:id="btninfo2" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo2OnMouseClicked" prefHeight="34.0" prefWidth="98.0" text="Mas Info." />
+            <Button fx:id="btninfo2" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo2OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="19.0" layoutY="483.0" prefHeight="169.0" prefWidth="337.0" style="-fx-background-color: #F5F5F5;">
@@ -86,9 +86,9 @@
                   <Image url="@asset/img/ROPA/OAKLEY.png" />
                </image>
             </ImageView>
-            <Button fx:id="btninfo3" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo3OnMouseClicked" prefHeight="34.0" prefWidth="98.0" text="Mas Info." />
+            <Button fx:id="btninfo3" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo3OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
          </children>
       </AnchorPane>
-      <Button fx:id="btnatras" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="34.0" prefWidth="58.0" style="-fx-background-color: #f5f5f5;" text="Atras" />
+      <Button fx:id="btnatras" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="34.0" prefWidth="58.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Atras" />
    </children>
 </AnchorPane>

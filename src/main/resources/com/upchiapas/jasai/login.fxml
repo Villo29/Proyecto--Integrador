@@ -33,12 +33,12 @@
             <Font name="Perpetua" size="25.0" />
          </font>
       </Label>
-      <Button fx:id="btnInicio" layoutX="51.0" layoutY="475.0" mnemonicParsing="false" onMouseClicked="#btninicioOnMouseClick" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #F9F9F9;" text="Iniciar Sesion">
+      <Button fx:id="btnInicio" layoutX="51.0" layoutY="475.0" mnemonicParsing="false" onMouseClicked="#btninicioOnMouseClick" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #F9F9F9; -fx-background-radius: 25;" text="Iniciar Sesion">
          <font>
             <Font name="Wingdings" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="btnSalir" layoutX="51.0" layoutY="527.0" mnemonicParsing="false" onMouseClicked="#btnSalirOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #F9F9F9;" text="Salir">
+      <Button fx:id="btnSalir" layoutX="51.0" layoutY="527.0" mnemonicParsing="false" onMouseClicked="#btnSalirOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #F9F9F9; -fx-background-radius: 25;" text="Salir">
          <font>
             <Font name="Wingdings" size="16.0" />
          </font>
