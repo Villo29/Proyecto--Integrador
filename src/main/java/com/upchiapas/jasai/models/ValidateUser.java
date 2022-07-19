@@ -8,6 +8,8 @@ public class ValidateUser {
     public ValidateUser(){
         users.add(new User("DavidR","Villo","2905"));
         users.add(new User("CarlosC","Carlos","1234"));
+        users.add(new User("Samuel","Samuel","1234"));
+        users.add(new User("Tarzan","Jorge","1234"));
     }
         public boolean auntenticarUser(String username, String password){
         boolean status= false;
