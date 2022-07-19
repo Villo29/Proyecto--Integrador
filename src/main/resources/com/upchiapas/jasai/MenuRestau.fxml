@@ -14,7 +14,7 @@
             <Image url="@asset/img/background.png" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="15.0" layoutY="100.0" prefHeight="169.0" prefWidth="345.0" style="-fx-background-color: #F5F5F5;">
+      <AnchorPane layoutX="15.0" layoutY="100.0" prefHeight="169.0" prefWidth="345.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 25;">
          <children>
             <Label layoutX="50.0" prefHeight="65.0" prefWidth="262.0" text="SIBARITA RESTAURANTE">
                <font>
@@ -39,7 +39,7 @@
             <Button fx:id="btninfo1" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="19.0" layoutY="291.0" prefHeight="169.0" prefWidth="345.0" style="-fx-background-color: #F5F5F5;">
+      <AnchorPane layoutX="19.0" layoutY="291.0" prefHeight="169.0" prefWidth="345.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 25;">
          <children>
             <Label layoutX="74.0" prefHeight="71.0" prefWidth="262.0" text="UAY BALAM ">
                <font>
@@ -64,7 +64,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="19.0" layoutY="475.0" prefHeight="169.0" prefWidth="337.0" style="-fx-background-color: #F5F5F5;">
+      <AnchorPane layoutX="19.0" layoutY="475.0" prefHeight="169.0" prefWidth="337.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 25;">
          <children>
             <Label layoutX="74.0" prefHeight="55.0" prefWidth="262.0" text="LA ESQUINA DE LA ">
                <font>
