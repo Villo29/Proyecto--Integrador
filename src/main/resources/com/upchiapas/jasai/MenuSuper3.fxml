@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.upchiapas.jasai.MenuSuper3"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.jasai.controllers.MenuSuper3">
+   <children>
+      <ImageView fitHeight="667.0" fitWidth="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnatras" layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" style="-fx-background-radius: 25; -fx-background-color: #F5F5F5;" text="ATRAS ">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="20.0" layoutY="110.0" prefHeight="279.0" prefWidth="335.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;">
+         <children>
+            <Button layoutX="122.0" layoutY="243.0" mnemonicParsing="false" style="-fx-background-radius: 25;" text="MAS INFO ">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="116.0" fitWidth="304.0" layoutX="16.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/SUPERMECADOS/3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/SUPERMECADOS/Walmart-logo-5.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="89.0" layoutY="69.0" text="CEREAL CORN FLAKES">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="247.0" layoutY="94.0" text="\$35">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>

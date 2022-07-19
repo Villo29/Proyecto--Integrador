@@ -14,17 +14,17 @@
          </image>
       </ImageView>
       <Button layoutX="58.0" layoutY="222.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="87.0" style="-fx-background-color: 000;" />
-      <ImageView fitHeight="79.0" fitWidth="96.0" layoutX="20.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="79.0" fitWidth="96.0" layoutX="20.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asset/img/LogMain/SUPERMECADO.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="98.0" fitWidth="87.0" layoutX="150.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="79.0" fitWidth="63.0" layoutX="157.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asset/img/LogMain/ROPA.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="106.0" fitWidth="87.0" layoutX="260.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="106.0" fitWidth="87.0" layoutX="260.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asset/img/LogMain/RESTAURANTES.png" />
          </image>
@@ -44,28 +44,23 @@
             <Image url="@asset/img/LogMain/GYM.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="114.0" fitWidth="106.0" layoutX="20.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="114.0" fitWidth="106.0" layoutX="54.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asset/img/LogMain/FARMACIAS.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="106.0" fitWidth="107.0" layoutX="144.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="106.0" fitWidth="107.0" layoutX="241.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asset/img/LogMain/ENTRETENIMIENTO.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="93.0" fitWidth="97.0" layoutX="266.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@asset/img/LogMain/BELLEZA.png" />
-         </image>
-      </ImageView>
-      <Button fx:id="btnMarket" layoutX="17.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#btnMarketOnMouseClicked" prefHeight="30.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="SuperMercado" />
-      <Button fx:id="btnRopa" layoutX="155.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#btnRopaOnMouseClicked" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Ropa">
+      <Button fx:id="btnMarket" layoutX="17.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#btnMarketOnMouseClicked" prefHeight="30.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="SuperMercado" />
+      <Button fx:id="btnRopa" layoutX="155.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#btnRopaOnMouseClicked" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Ropa">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="btnRestaurant" layoutX="262.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#btnRestaurantOnMouseClicked" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Restaurantes">
+      <Button fx:id="btnRestaurant" layoutX="262.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#btnRestaurantOnMouseClicked" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Restaurantes">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
@@ -85,20 +80,24 @@
             <Font name="Arial" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="btnFarmacia" layoutX="20.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#btnFarmaciaOnMouseClicked" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Farmacias">
+      <Button fx:id="btnFarmacia" layoutX="70.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#btnFarmaciaOnMouseClicked" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Farmacias">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="btnEntre" layoutX="147.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#btnEntreOnMouseClicked" prefHeight="30.0" prefWidth="106.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Entretenimiento">
+      <Button fx:id="btnEntre" layoutX="245.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#btnEntreOnMouseClicked" prefHeight="30.0" prefWidth="106.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Entretenimiento">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="btnBelleza" layoutX="283.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#btnBellezaOnMouseClicked" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="Belleza">
-         <font>
-            <Font name="Arial" size="12.0" />
-         </font>
+      <Button fx:id="btnacercca" contentDisplay="CENTER" layoutX="93.0" layoutY="6.0" mnemonicParsing="false" onMouseClicked="#btnacercaOnMouseClicked" prefHeight="120.0" prefWidth="180.0" style="-fx-background-color: 0000;">
+         <graphic>
+            <ImageView fitHeight="120.0" fitWidth="180.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/logo.png" />
+               </image>
+            </ImageView>
+         </graphic>
       </Button>
    </children>
 </AnchorPane>

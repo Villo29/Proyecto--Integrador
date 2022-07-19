@@ -5,23 +5,23 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 
-public class MenuBar{
+public class MenuBar {
 
     @FXML
     private Button btnatras;
 
     @FXML
+    private Button btninfo;
+
+    @FXML
     private Button btninfo1;
 
     @FXML
-    private Button btninfo11;
-
-    @FXML
-    private Button btninfo12;
+    private Button btninfo2;
 
     @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("Interfaz","TU PLAZA VIRTUAL)");
+        HelloApplication.setFXML("Interfaz","TU PLAZA VIRTUAL");
     }
 
     @FXML
@@ -30,12 +30,12 @@ public class MenuBar{
     }
 
     @FXML
-    void voidbtninfo11OnMouseClicked(MouseEvent event){
+    void btninfo2OnMouseClicked(MouseEvent event) {
 
     }
 
     @FXML
-    void voidbtninfo12OnMouseClicked(MouseEvent event){
+    void btninfoOnMouseClicked(MouseEvent event) {
 
     }
 

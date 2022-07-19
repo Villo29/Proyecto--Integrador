@@ -35,6 +35,9 @@ public class Interfaz {
     private Button btngym;
 
     @FXML
+    private Button btnacercca;
+
+    @FXML
     void btnBarOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuBar","LOS MEJORES DE TU ALREDEDOR");
     }
@@ -78,5 +81,11 @@ public class Interfaz {
     void btngymOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuGym","Ponte Mamado");
     }
+
+    @FXML
+    void btnacercaOnMouseClicked(MouseEvent event) {
+            HelloApplication.setFXML("AcercaDe","PTU");
+    }
+
 
 }
