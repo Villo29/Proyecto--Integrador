@@ -26,17 +26,17 @@ public class MenuRopa {
 
     @FXML
     void btninfo1OnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuRopa1","LOS MEJORES OFERTAS LEVIS");
     }
 
     @FXML
     void btninfo2OnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuRopa2","LOS MEJORES BOLSAS");
     }
 
     @FXML
     void btninfo3OnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuRopa3","LOS MEJORES LENTES BZR");
     }
 
 }

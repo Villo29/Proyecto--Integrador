@@ -49,7 +49,7 @@ public class Interfaz {
 
     @FXML
     void btnEntreOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuEntretenimiento","Divierte Mucho");
+        HelloApplication.setFXML("MenuEntre","Divierte Mucho");
     }
 
     @FXML

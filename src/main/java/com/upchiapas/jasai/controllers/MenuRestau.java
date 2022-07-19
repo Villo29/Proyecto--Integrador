@@ -14,10 +14,10 @@ public class MenuRestau {
     private Button btninfo1;
 
     @FXML
-    private Button btninfo11;
+    private Button btninfo2;
 
     @FXML
-    private Button btninfo12;
+    private Button btninfo3;
 
     @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
@@ -26,7 +26,15 @@ public class MenuRestau {
 
     @FXML
     void btninfo1OnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuResta1","LOS MAS CERCA DE TI ");
     }
 
+    @FXML
+    void btninfo3OnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("MenuResta3","LOS MAS CERCA DE TI ");
+    }
+    @FXML
+    void btninfo2OnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("MenuResta2","LOS MAS CERCA DE TI ");
+    }
 }

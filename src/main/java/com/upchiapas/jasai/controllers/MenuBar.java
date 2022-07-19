@@ -26,17 +26,17 @@ public class MenuBar {
 
     @FXML
     void btninfo1OnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuFar1","LOS MAS CERCA DE TI ");
     }
 
     @FXML
     void btninfo2OnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuBar2","LOS MAS CERCA DE TI ");
     }
 
     @FXML
     void btninfoOnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuBar3","LOS MAS CERCA DE TI ");
     }
 
 }

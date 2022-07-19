@@ -1,4 +1,4 @@
 package com.upchiapas.jasai.controllers;
 
-public class MenuEntretenimiento {
+public class MenuHos1 {
 }

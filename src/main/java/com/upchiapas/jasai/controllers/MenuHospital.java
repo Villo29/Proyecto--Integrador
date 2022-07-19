@@ -26,17 +26,17 @@ public class MenuHospital {
 
     @FXML
     void btninfo1OnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuHos1","HOSPITALES CERCAS");
     }
 
     @FXML
     void btninfo2OnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuHos2","HOSPITALES CERCAS");
     }
 
     @FXML
     void btninfo3OnMouseClicked(MouseEvent event) {
-
+        HelloApplication.setFXML("MenuHos2","HOSPITALES CERCAS");
     }
 
 }

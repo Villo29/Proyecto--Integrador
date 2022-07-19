@@ -56,7 +56,7 @@
                   <Image url="@asset/img/RESTAURANTES/LOGO%20UAY%20BALAM.png" />
                </image>
             </ImageView>
-            <Button fx:id="btninfo11" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
+            <Button fx:id="btninfo2" layoutX="230.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo2OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
             <Label layoutX="50.0" layoutY="47.0" prefHeight="32.0" prefWidth="163.0" text="RESTAURANTE">
                <font>
                   <Font name="Arial Bold" size="20.0" />
@@ -81,7 +81,7 @@
                   <Image url="@asset/img/RESTAURANTES/PROMOCIONES%20LA%20ESQUINA.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="btninfo12" layoutX="13.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo1OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
+            <Button fx:id="btninfo3" layoutX="13.0" layoutY="121.0" mnemonicParsing="false" onMouseClicked="#btninfo3OnMouseClicked" prefHeight="34.0" prefWidth="98.0" style="-fx-background-radius: 25;" text="Mas Info." />
             <Label layoutX="118.0" layoutY="28.0" prefHeight="55.0" prefWidth="227.0" text="QUINTA RESTAURANT">
                <font>
                   <Font name="Arial Bold" size="20.0" />
