@@ -12,7 +12,7 @@ public class MenuRopa2 {
 
     @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuRopa2", "LOS MEJORES BOLSOS");
+        HelloApplication.setFXML("MenuRopa", "LOS MEJORES BOLSOS");
     }
 
 }

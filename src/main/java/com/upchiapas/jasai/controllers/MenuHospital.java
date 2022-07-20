@@ -36,7 +36,7 @@ public class MenuHospital {
 
     @FXML
     void btninfo3OnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuHos2","HOSPITALES CERCAS");
+        HelloApplication.setFXML("MenuHos3","HOSPITALES CERCAS");
     }
 
 }

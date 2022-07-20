@@ -26,17 +26,17 @@ public class MenuEntre {
 
     @FXML
     void btninfo2OnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuEntre1","LOS MAS CERCA DE TI ");
-    }
-
-    @FXML
-    void btninfo3OnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuEntre2","LOS MAS CERCA DE TI ");
     }
 
     @FXML
-    void btninfoOnMouseClicked(MouseEvent event) {
+    void btninfo3OnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuEntre3","LOS MAS CERCA DE TI ");
+    }
+
+    @FXML
+    void btninfoOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("MenuEntre1","LOS MAS CERCA DE TI ");
     }
 
 }

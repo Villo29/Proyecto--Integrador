@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.upchiapas.jasai.controllers.MenuHos3"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.jasai.controllers.MenuHos3">
+   <children>
+      <ImageView fitHeight="667.0" fitWidth="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/background.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="12.0" layoutY="130.0" prefHeight="234.0" prefWidth="348.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;">
+         <children>
+            <ImageView fitHeight="106.0" fitWidth="114.0" layoutX="14.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/HOSPITALES/LOGO%20DENTALART.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="214.0" fitWidth="157.0" layoutX="133.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/HOSPITALES/PROMO%20DELTALART.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="145.0" layoutY="47.0">
+               <font>
+                  <Font name="Cambria Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="190.0" layoutY="29.0" text="DELTALART">
+               <font>
+                  <Font name="Cambria Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="203.0" layoutY="72.0" text="SONRISA&quot;">
+               <font>
+                  <Font name="Cambria Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="157.0" layoutY="49.0" text="&quot;SOLUCIONES A TU ">
+               <font>
+                  <Font name="Cambria Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnatras" layoutX="22.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="29.0" prefWidth="69.0" style="-fx-background-radius: 25; -fx-background-color: #f5f5f5;" text="Atras" />
+      <Button layoutX="116.0" layoutY="426.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="144.0" style="-fx-background-radius: 15;" text="Button" />
+   </children>
 </AnchorPane>

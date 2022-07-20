@@ -26,17 +26,17 @@ public class MenuGym {
 
     @FXML
     void btninfo1OnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuGym1","LOS MAS CERCA DE TI ");
-    }
-
-    @FXML
-    void btninfo2OnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuGym2","LOS MAS CERCA DE TI ");
     }
 
     @FXML
-    void btninfoOnMouseClicked(MouseEvent event) {
+    void btninfo2OnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuGym3","LOS MAS CERCA DE TI ");
+    }
+
+    @FXML
+    void btninfoOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("MenuGym1","LOS MAS CERCA DE TI ");
     }
 
 }
