@@ -23,7 +23,12 @@ public class register {
 
     @FXML
     void btnBackOnMouseClick(MouseEvent event) {
-        HelloApplication.setFXML("loginMenu", "Menu Inicio");
+        HelloApplication.setFXML("LoginMenuController","JASAI ");
+    }
+
+    @FXML
+    void btnregisterOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("login","TU PLAZA VIRTUAL");
     }
 
 }

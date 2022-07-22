@@ -11,9 +11,6 @@ public class Interfaz {
     private Button btnBar;
 
     @FXML
-    private Button btnBelleza;
-
-    @FXML
     private Button btnEntre;
 
     @FXML
@@ -32,60 +29,67 @@ public class Interfaz {
     private Button btnRopa;
 
     @FXML
-    private Button btngym;
-
-    @FXML
     private Button btnacercca;
 
     @FXML
-    void btnBarOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuBar","LOS MEJORES DE TU ALREDEDOR");
-    }
+    private Button btngym;
 
     @FXML
-    void btnBellezaOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuBelleza","Para Ponerte Bella");
+    private Button btnin;
+
+    @FXML
+    void btnBarOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("MenuBar","DISFRUTA DE LO BUENO");
     }
 
     @FXML
     void btnEntreOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuEntre","Divierte Mucho");
+        HelloApplication.setFXML("MenuEntre","DISFRUTA DE LO BUENO");
     }
 
     @FXML
     void btnFarmaciaOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("Menufarmacia","Todas Las Farmacias ALREDEDOR");
+        HelloApplication.setFXML("Menufarmacia","DISFRUTA DE LO BUENO");
     }
 
     @FXML
     void btnHospitalOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuHospital","Hospitales Cerca de Ti");
+        HelloApplication.setFXML("MenuHospital","DISFRUTA DE LO BUENO");
     }
 
     @FXML
     void btnMarketOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuMarket","SuperMercado");
+        HelloApplication.setFXML("MenuMarket","DISFRUTA DE LO BUENO");
     }
 
     @FXML
     void btnRestaurantOnMouseClicked(MouseEvent event) {
-            HelloApplication.setFXML("MenuRestau","MEJORES RESTAURANTES");
+        HelloApplication.setFXML("MenuRestau","DISFRUTA DE LO BUENO");
     }
 
     @FXML
     void btnRopaOnMouseClicked(MouseEvent event) {
-            HelloApplication.setFXML("MenuRopa","Tiendas de Quesos");
-    }
-
-    @FXML
-    void btngymOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuGym","Ponte Mamado");
+        HelloApplication.setFXML("MenuRopa","DISFRUTA DE LO BUENO");
     }
 
     @FXML
     void btnacercaOnMouseClicked(MouseEvent event) {
-            HelloApplication.setFXML("AcercaDe","PTU");
+       HelloApplication.setFXML("AcercaDe","DISFRUTA DE LO BUENO");
     }
 
+    @FXML
+    void btnacerccaOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("AcercaDe","DISFRUTA DE LO BUENO");
+    }
+
+    @FXML
+    void btngymOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("MenuGym","DISFRUTA DE LO BUENO");
+    }
+
+    @FXML
+    void btninOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("Perfil","DISFRUTA DE LO BUENO");
+    }
 
 }

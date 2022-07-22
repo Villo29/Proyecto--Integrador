@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.jasai.controllers.AcercaDe">
+<AnchorPane prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.jasai.controllers.Perfil">
    <children>
       <ImageView fitHeight="683.0" fitWidth="387.0" layoutX="2.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -23,27 +23,16 @@
          </font>
       </Label>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="545.0" layoutX="28.0" layoutY="103.0" stroke="BLACK" strokeType="INSIDE" width="328.0" />
-      <Label layoutX="106.0" layoutY="195.0" prefHeight="34.0" prefWidth="174.0" text="Estadisticas de visitas">
+      <Button fx:id="btnin" layoutX="11.0" layoutY="68.0" mnemonicParsing="false" onMouseClicked="#btninOnMouseClicked" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 20;" text="Atras" />
+      <TextArea fx:id="txtarea" layoutX="57.0" layoutY="201.0" prefHeight="344.0" prefWidth="278.0">
          <font>
-            <Font size="18.0" />
+            <Font name="Arial" size="14.0" />
          </font>
-      </Label>
-      <Label layoutX="106.0" layoutY="221.0" prefHeight="34.0" prefWidth="174.0" text="en las ultimas 12 hrs:">
+      </TextArea>
+      <Button fx:id="btnperfil" layoutX="41.0" layoutY="128.0" mnemonicParsing="false" onMouseClicked="#btnperfilOnMouseClicked" style="-fx-background-radius: 20; -fx-background-color: #2905;" text="Ver Perfil">
          <font>
-            <Font size="18.0" />
+            <Font size="19.0" />
          </font>
-      </Label>
-      <TextField layoutX="117.0" layoutY="264.0" promptText="nomber random" />
-      <Label layoutX="135.0" layoutY="298.0" prefHeight="34.0" prefWidth="113.0" text="Comentarios:">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <TextArea layoutX="53.0" layoutY="341.0" prefHeight="277.0" prefWidth="278.0" />
-      <Label layoutX="37.0" layoutY="133.0" prefHeight="34.0" prefWidth="309.0" text="Nombre del Comercio" textAlignment="CENTER">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
+      </Button>
    </children>
 </AnchorPane>
