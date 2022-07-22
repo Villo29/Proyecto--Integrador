@@ -35,6 +35,7 @@
          </font>
       </Label>
       <ImageView fitHeight="150.0" fitWidth="327.0" layoutX="24.0" layoutY="491.0" pickOnBounds="true" preserveRatio="true" />
-      <Button fx:id="btnatras" layoutX="285.0" layoutY="25.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="24.0" prefWidth="81.0" style="-fx-background-color: #F5F5F5;" text="ATRAS" />
+      <Button fx:id="btnatras" layoutX="103.0" layoutY="415.0" mnemonicParsing="false" onAction="#openLinkSuper1" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="26.0" prefWidth="157.0" style="-fx-background-color: #F5F5F5;" text="Mostrar Ubicacion" />
+      <Button fx:id="btnatras" layoutX="274.0" layoutY="41.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="14.0" prefWidth="89.0" style="-fx-background-radius: 20;" text="Atras" />
    </children>
 </AnchorPane>

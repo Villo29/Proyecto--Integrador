@@ -1,34 +1,43 @@
 package com.upchiapas.jasai.controllers;
 
-import javafx.application.HostServices;
+import com.upchiapas.jasai.HelloApplication;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Hyperlink;
 import javafx.scene.input.MouseEvent;
-
 import java.io.IOException;
+import java.net.URI;
 import java.net.URISyntaxException;
 
+import static java.awt.Desktop.getDesktop;
+
+
+
 public class MenuEntre1 {
-    HostServices hostServices;
 
     @FXML
     private Button btnatras;
 
     @FXML
-    private Hyperlink link;
-
-    @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("MenuEntre","Entre1");
 
     }
 
     @FXML
-    void linkOnMouseLinked(MouseEvent event) throws URISyntaxException, IOException {
-        hostServices.showDocument(link.getText());
-    }
-    public void setHostServices(HostServices hostServices){
-        this.hostServices = hostServices;
+    void openLinkEn1(ActionEvent event) {
+        try {
+            getDesktop().browse(new URI("https://www.google.com/maps/dir/16.6178089,-93.1077375/cubox+tuxtla/@16.6821962,-93.1663836,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x85ecd88cb01f19eb:0x5b3dee1d003d94b6!2m2!1d-93.1171911!2d16.7538839"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
+
+        }
+
+
+
     }
 
 }
+
