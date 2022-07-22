@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -62,7 +65,20 @@
             <Font name="Bodoni MT Bold Italic" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="266.0" layoutY="603.0" prefHeight="30.0" prefWidth="54.0" text="\@JASAI.1" />
+      <Label layoutX="266.0" layoutY="603.0" prefHeight="30.0" prefWidth="80.0" text="\@JASAI.1" />
       <Button fx:id="btnatras" layoutX="32.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="30.0" prefWidth="110.0" text="Atras 😍" />
+      <Button layoutX="433.0" layoutY="543.0" minWidth="41.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="41.0" style="-fx-background-radius: 25;">
+         <graphic>
+            <Hyperlink onAction="#openLinkFace">
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@asset/img/Facebook_vmc2015.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Hyperlink>
+         </graphic>
+      </Button>
    </children>
 </AnchorPane>
