@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.jasai.controllers.registerCompany3">
+   <children>
+      <ImageView fitHeight="667.0" fitWidth="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="actualiza" layoutX="278.0" layoutY="30.0" mnemonicParsing="false" onAction="#actualiza" text="Actualizar" />
+      <AnchorPane layoutX="10.0" layoutY="134.0" prefHeight="322.0" prefWidth="348.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="144.0" layoutX="11.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/BAR/LOGO%20LA%20ALEGRIA.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="190.0" fitWidth="182.0" layoutX="154.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/img/BAR/NEGRITA.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="4.0" layoutY="173.0" text="HORARIOS DE ATENCION:" />
+            <Label layoutX="52.0" layoutY="249.0" text="CIERRE" />
+            <Label layoutX="38.0" layoutY="188.0" text="APERTURA" />
+            <Label fx:id="txtArea2" layoutX="29.0" layoutY="141.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtHA" layoutX="38.0" layoutY="213.0" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtHC" layoutX="38.0" layoutY="270.0" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnatras" layoutX="22.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="29.0" prefWidth="69.0" style="-fx-background-radius: 25; -fx-background-color: #f5f5f5;" text="Atras" />
+      <Button layoutX="115.0" layoutY="458.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="144.0" style="-fx-background-radius: 15;" text="Button" />
+   </children>
+</AnchorPane>
