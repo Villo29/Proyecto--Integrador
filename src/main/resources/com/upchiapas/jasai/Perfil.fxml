@@ -35,7 +35,7 @@
          </font>
       </Label>
       <TextField fx:id="txtA" alignment="CENTER" editable="false" layoutX="98.0" layoutY="271.0" onDragDetected="#visit" prefHeight="26.0" prefWidth="188.0" />
-      <Label layoutX="135.0" layoutY="298.0" prefHeight="34.0" prefWidth="113.0" text="Comentarios:">
+      <Label layoutX="70.0" layoutY="303.0" prefHeight="34.0" prefWidth="278.0" text="INFORMACION DEL USUARIO">
          <font>
             <Font size="18.0" />
          </font>

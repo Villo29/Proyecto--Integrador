@@ -25,7 +25,7 @@ public class registerCompany2 {
     }*/
 
     @FXML
-    void btnFinalizarOnMouseClick(MouseEvent event) {HelloApplication.setFXML("InterfazComercio","TU PLAZA VIRTUAL");}
+    void btnFinalizarOnMouseClick(MouseEvent event) {HelloApplication.setFXML("Interfaz","TU PLAZA VIRTUAL");}
 
     @FXML
     void btnbackOnMouseClick(MouseEvent event) {

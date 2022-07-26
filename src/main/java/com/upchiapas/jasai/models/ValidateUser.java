@@ -5,8 +5,10 @@ import java.util.ArrayList;
 public class ValidateUser {
     public ArrayList<User>users=new ArrayList<>();
 
-    public ValidateUser(){
+    public ValidateUser(){//Polimorfismo
         users.add(new User("DavidR", "Villo", "2905"));
+        users.add(new User("Jorge","Jorge","1234"));
+        users.add(new User("Samuel", "Samuel", "1234"));
     }
     public ValidateUser(ArrayList arrayList) {
     }
