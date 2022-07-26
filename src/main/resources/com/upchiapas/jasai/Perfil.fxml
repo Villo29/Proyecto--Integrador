@@ -29,11 +29,6 @@
          </font>
       </Label>
       <TextArea fx:id="txtComentarios" layoutX="53.0" layoutY="341.0" onDragDetected="#visit" prefHeight="277.0" prefWidth="278.0" />
-      <Label fx:id="txtArea2" layoutX="38.0" layoutY="133.0" prefHeight="34.0" prefWidth="309.0" text="Nombre del Comercio" textAlignment="CENTER">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
       <Button fx:id="actualizarButton" alignment="CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="252.0" mnemonicParsing="false" onAction="#actualizar" prefHeight="46.0" prefWidth="94.0" style="-fx-background-radius: 25; -fx-background-color: #2905;" text="VER INFO" />
       <Button fx:id="btnatras" layoutX="234.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" style="-fx-background-radius: 25; -fx-background-color: #2905;" text="Atras">
          <font>
