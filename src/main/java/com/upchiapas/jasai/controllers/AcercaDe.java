@@ -19,11 +19,11 @@ public class AcercaDe {
 
     @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("Interfaz","TU PLAZA VIRTUAL");
+        HelloApplication.setFXML("Interfaz","TU PLAZA VIRTUAL ");
     }
 
     @FXML
-    void openLinkFace(ActionEvent event) {
+    void openLinkFace1(ActionEvent event) {
         try {
             getDesktop().browse(new URI("https://www.facebook.com/JesuVid.RG"));
         } catch (IOException e) {
@@ -32,6 +32,51 @@ public class AcercaDe {
             throw new RuntimeException(e);
 
         }
+
+    }
+
+    @FXML
+    void openLinkFace2(ActionEvent event) {
+
+        try {
+            getDesktop().browse(new URI("https://www.facebook.com/Carlos.cruz.006"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
+
+        }
+
+
+    }
+
+    @FXML
+    void openLinkFace3(ActionEvent event) {
+
+        try {
+            getDesktop().browse(new URI("https://www.facebook.com/profile.php?id=100041598095592"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
+
+        }
+
+
+
+    }
+
+    @FXML
+    void openLinkFace4(ActionEvent event) {
+        try {
+            getDesktop().browse(new URI("https://www.facebook.com/jorge.molinagomez.79"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
+
+        }
+
     }
 
 }

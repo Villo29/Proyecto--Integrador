@@ -40,36 +40,36 @@
             <Font size="19.0" />
          </font>
       </Label>
-      <Label layoutX="200.0" layoutY="384.0" prefHeight="58.0" prefWidth="188.0" text="     DESARRALLORES :" textAlignment="CENTER">
+      <Label layoutX="200.0" layoutY="384.0" prefHeight="58.0" prefWidth="188.0" text="     DESARROLLORES :" textAlignment="CENTER">
          <font>
             <Font name="Berlin Sans FB Demi Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="181.0" layoutY="421.0" prefHeight="42.0" prefWidth="302.0" text="Carlos Ivan Cruz Zarmiento ">
+      <Label layoutX="118.0" layoutY="426.0" prefHeight="42.0" prefWidth="302.0" text="Carlos Ivan Cruz Zarmiento ">
          <font>
             <Font name="Bodoni MT Condensed Bold Italic" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="175.0" layoutY="463.0" prefHeight="42.0" prefWidth="258.0" text="Samuel Alberto Escobar Hernández">
+      <Label layoutX="109.0" layoutY="466.0" prefHeight="42.0" prefWidth="375.0" text="Samuel Alberto Escobar Hernández">
          <font>
             <Font name="Bodoni MT Condensed Italic" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="156.0" layoutY="505.0" prefHeight="30.0" prefWidth="274.0" text="Jorge Arturo Molina Gomez ">
+      <Label layoutX="109.0" layoutY="505.0" prefHeight="34.0" prefWidth="341.0" text="Jorge Arturo Molina Gomez ">
          <font>
             <Font name="Bodoni MT Italic" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="144.0" layoutY="549.0" prefHeight="30.0" prefWidth="292.0" text="Jesús David Ruiz Garcia">
+      <Label layoutX="109.0" layoutY="541.0" prefHeight="30.0" prefWidth="292.0" text="Jesús David Ruiz Garcia">
          <font>
             <Font name="Bodoni MT Bold Italic" size="23.0" />
          </font>
       </Label>
       <Label layoutX="266.0" layoutY="603.0" prefHeight="30.0" prefWidth="80.0" text="\@JASAI.1" />
       <Button fx:id="btnatras" layoutX="22.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#btnatrasOnMouseClicked" prefHeight="30.0" prefWidth="110.0" style="-fx-background-radius: 25;" text="Atras 😍" />
-      <Button layoutX="416.0" layoutY="558.0" minWidth="41.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="41.0" style="-fx-background-radius: 25;">
+      <Button layoutX="477.0" layoutY="564.0" minWidth="41.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="41.0" style="-fx-background-radius: 25;">
          <graphic>
-            <Hyperlink onAction="#openLinkFace" prefHeight="32.0" prefWidth="24.0">
+            <Hyperlink onAction="#openLinkFace1" prefHeight="32.0" prefWidth="24.0">
                <graphic>
                   <ImageView fitHeight="77.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -80,9 +80,9 @@
             </Hyperlink>
          </graphic>
       </Button>
-      <Button layoutX="403.0" layoutY="413.0" minWidth="41.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="41.0" style="-fx-background-radius: 25;">
+      <Button layoutX="477.0" layoutY="413.0" minWidth="41.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="41.0" style="-fx-background-radius: 25;">
          <graphic>
-            <Hyperlink onAction="#openLinkFace">
+            <Hyperlink onAction="#openLinkFace2">
                <graphic>
                   <ImageView fitHeight="77.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -93,9 +93,9 @@
             </Hyperlink>
          </graphic>
       </Button>
-      <Button layoutX="416.0" layoutY="463.0" minWidth="41.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="41.0" style="-fx-background-radius: 25;">
+      <Button layoutX="477.0" layoutY="466.0" minWidth="41.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="41.0" style="-fx-background-radius: 25;">
          <graphic>
-            <Hyperlink onAction="#openLinkFace">
+            <Hyperlink onAction="#openLinkFace3">
                <graphic>
                   <ImageView fitHeight="77.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -106,9 +106,9 @@
             </Hyperlink>
          </graphic>
       </Button>
-      <Button layoutX="443.0" layoutY="505.0" minWidth="41.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="41.0" style="-fx-background-radius: 25;">
+      <Button layoutX="477.0" layoutY="516.0" minWidth="41.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="41.0" style="-fx-background-radius: 25;">
          <graphic>
-            <Hyperlink onAction="#openLinkFace">
+            <Hyperlink onAction="#openLinkFace4">
                <graphic>
                   <ImageView fitHeight="77.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                      <image>
