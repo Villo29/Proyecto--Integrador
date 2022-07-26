@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class HelloApplication extends Application {//Herencia
     private static Stage stage;
     private static  Scene scene;
 
@@ -30,16 +30,12 @@ public class HelloApplication extends Application {
             throw new RuntimeException(e);
         }
     }
-
     public static void setFXML(String nameView, String title){
         scene.setRoot(loadFXML(nameView));
         stage.sizeToScene();
         stage.centerOnScreen();
         stage.setTitle(title);
     }
-
-
-
     public static void main(String[] args) {
         launch();
     }

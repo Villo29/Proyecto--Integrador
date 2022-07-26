@@ -20,6 +20,9 @@ public class MenuGym {
     private Button btninfo2;
 
     @FXML
+    private Button btnvermas;
+
+    @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("Interfaz","TU PLAZA VIRTUAL");
     }
@@ -38,5 +41,12 @@ public class MenuGym {
     void btninfoOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuGym1","LOS MAS CERCA DE TI ");
     }
+
+    @FXML
+    void btnvermasOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("registerCompany3","VER MAS OPCIONES");
+    }
+
+    
 
 }

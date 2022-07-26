@@ -5,7 +5,7 @@ public class User {
     private String username;
     private String password;
 
-    public User(String nombre, String username, String password) {
+    public User(String nombre, String username, String password) {//Contructor
         this.nombre = nombre;
         this.username = username;
         this.password = password;
@@ -33,5 +33,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "nombre='" + nombre + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }

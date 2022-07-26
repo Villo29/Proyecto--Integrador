@@ -3,15 +3,14 @@ package com.upchiapas.jasai.models;
 import java.util.ArrayList;
 
 public class ValidateUser {
-    private ArrayList<User>users=new ArrayList<>();
+    public ArrayList<User>users=new ArrayList<>();
 
     public ValidateUser(){
-        users.add(new User("DavidR","Villo","2905"));
-        users.add(new User("CarlosC","Carlos","1234"));
-        users.add(new User("Jorge", "Jorge","1234"));
-        users.add(new User("Samuel","Samuel","1234"));
+        users.add(new User("DavidR", "Villo", "2905"));
     }
-        public boolean auntenticarUser(String username, String password){
+    public ValidateUser(ArrayList arrayList) {
+    }
+    public boolean auntenticarUser(String username, String password){
         boolean status= false;
         User user= findUser(username);
         if( user != null && user.getPassword().equals(password))

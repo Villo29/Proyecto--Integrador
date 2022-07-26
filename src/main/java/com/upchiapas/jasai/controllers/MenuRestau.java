@@ -20,6 +20,9 @@ public class MenuRestau {
     private Button btninfo3;
 
     @FXML
+    private Button btnvermas;
+
+    @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("Interfaz","TU PLAZA VIRTUAL");
     }
@@ -37,4 +40,10 @@ public class MenuRestau {
     void btninfo2OnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuResta2","LOS MAS CERCA DE TI ");
     }
+
+    @FXML
+    void btnvermasOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("registerCompany3","VER MAS OPCIONES");
+    }
+
 }

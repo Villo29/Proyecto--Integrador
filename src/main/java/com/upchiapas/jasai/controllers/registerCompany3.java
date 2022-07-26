@@ -5,8 +5,13 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
 import javafx.scene.input.MouseEvent;
+
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import static java.awt.Desktop.getDesktop;
 
 public class registerCompany3 extends registerCompany2 {
     @FXML
@@ -38,7 +43,7 @@ public class registerCompany3 extends registerCompany2 {
 
     @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("MenuBarNegocio","LAS MEJORES BOTANAS");
+        HelloApplication.setFXML("Interfaz","LAS MEJORES BOTANAS");
     }
 
     @FXML
@@ -47,6 +52,21 @@ public class registerCompany3 extends registerCompany2 {
         txtArea2.setText(tm.getNombreComercio());
         txtHA.setText(tm.gethA()+":"+tm.getmA()+" HRS");
         txtHC.setText(tm.gethC()+":"+tm.getmC()+" HRS");
+
+    }
+
+    @FXML
+    void openLink(ActionEvent event) {
+
+        try {
+            registerCompany tm = new registerCompany();
+            getDesktop().browse(new URI(tm.getUbicacion()));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
+
+        }
 
     }
 

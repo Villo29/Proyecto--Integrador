@@ -20,6 +20,9 @@ public class MenuEntre {
     private Button btninfo3;
 
     @FXML
+    private Button btnvermas;
+
+    @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("Interfaz","TU PLAZA VIRTUAL");
     }
@@ -37,6 +40,11 @@ public class MenuEntre {
     @FXML
     void btninfoOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuEntre1","LOS MAS CERCA DE TI ");
+    }
+
+    @FXML
+    void btnvermasOnMousecClicked(MouseEvent event) {
+            HelloApplication.setFXML("registerCompany3","VER MAS OPCIONES DE COMPRA");
     }
 
 }

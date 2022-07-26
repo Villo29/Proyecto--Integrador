@@ -11,6 +11,9 @@ public class MenuMarket {
     private Button btnatras;
 
     @FXML
+    private Button btnvermas;
+
+    @FXML
     private Button btninfo1;
     @FXML
     private Button btninfo2;
@@ -36,6 +39,11 @@ public class MenuMarket {
     @FXML
     void  btninfo3OnMouseClicked(MouseEvent event){
         HelloApplication.setFXML("MenuSuper3","Mejoses Promoxiones");
+    }
+
+    @FXML
+    void btnvermasOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("registerCompany3","MAS OPCIONES DE COMPRAS");
     }
 
 }

@@ -20,6 +20,9 @@ public class MenuRopa {
     private Button btninfo3;
 
     @FXML
+    private Button btnvermas;
+
+    @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("Interfaz","Tu Plaza En Linea");
     }
@@ -37,6 +40,11 @@ public class MenuRopa {
     @FXML
     void btninfo3OnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuRopa3","LOS MEJORES LENTES BZR");
+    }
+
+    @FXML
+    void btnvermasOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("registerCompany3","VER MAS OPCIONES");
     }
 
 }

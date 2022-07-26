@@ -18,10 +18,15 @@ public class registerCompany2 {
 
     @FXML
     private Button btnback;
-    @FXML
+
+/*    @FXML
     void btnFinalizarOnMouseClick(MouseEvent event) {
         System.exit(1);
-    }
+    }*/
+
+    @FXML
+    void btnFinalizarOnMouseClick(MouseEvent event) {HelloApplication.setFXML("InterfazComercio","TU PLAZA VIRTUAL");}
+
     @FXML
     void btnbackOnMouseClick(MouseEvent event) {
         HelloApplication.setFXML("registerCompany","Registre Su Compañia");

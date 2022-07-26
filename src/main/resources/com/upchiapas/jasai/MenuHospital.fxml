@@ -14,7 +14,7 @@
             <Image url="@asset/img/background.png" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="20.0" layoutY="100.0" prefHeight="175.0" prefWidth="341.0" style="-fx-background-color: #f5f5f5;">
+      <AnchorPane layoutX="20.0" layoutY="78.0" prefHeight="175.0" prefWidth="341.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;">
          <children>
             <Label layoutX="158.0" layoutY="44.0" text="&quot;DR. RAFAEL PASCACIO">
                <font>
@@ -48,7 +48,7 @@
             <Font name="Arial Black" size="12.0" />
          </font>
       </Button>
-      <AnchorPane layoutX="17.0" layoutY="286.0" prefHeight="175.0" prefWidth="341.0" style="-fx-background-color: #f5f5f5;">
+      <AnchorPane layoutX="17.0" layoutY="260.0" prefHeight="175.0" prefWidth="341.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;">
          <children>
             <Label layoutX="180.0" layoutY="44.0" text="MEDICOS 24H ">
                <font>
@@ -72,7 +72,7 @@
             </Button>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="17.0" layoutY="475.0" prefHeight="137.0" prefWidth="341.0" style="-fx-background-color: #f5f5f5;">
+      <AnchorPane layoutX="17.0" layoutY="444.0" prefHeight="137.0" prefWidth="341.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;">
          <children>
             <Label layoutX="158.0" layoutY="44.0" text="&quot;SOLUCIONES A TU ">
                <font>
@@ -101,5 +101,10 @@
             </Button>
          </children>
       </AnchorPane>
+      <Button fx:id="btnvermas" layoutX="140.0" layoutY="615.0" mnemonicParsing="false" onMouseClicked="#btnvermasOnMouseClicked" prefHeight="38.0" prefWidth="103.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 25;" text="VER MAS ">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

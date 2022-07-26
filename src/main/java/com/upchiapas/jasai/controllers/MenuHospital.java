@@ -20,6 +20,9 @@ public class MenuHospital {
     private Button btninfo3;
 
     @FXML
+    private Button btnvermas;
+
+    @FXML
     void btnatrasOnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("Interfaz","Tu Plaza Virtual");
     }
@@ -37,6 +40,11 @@ public class MenuHospital {
     @FXML
     void btninfo3OnMouseClicked(MouseEvent event) {
         HelloApplication.setFXML("MenuHos3","HOSPITALES CERCAS");
+    }
+
+    @FXML
+    void btnvermasOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("registerCompany3","VER MAS OPCIONES");
     }
 
 }
